@@ -23,7 +23,7 @@ app = FastAPI()
 # STATIC FILES
 # =========================================
 
-app.mount("/assets", StaticFiles(directory="../assets"), name="assets")
+app.mount("/assets", StaticFiles(directory="assets"), name="assets")
 
 
 # =========================================
@@ -34,7 +34,7 @@ app.mount("/assets", StaticFiles(directory="../assets"), name="assets")
 
 def serve_homepage():
 
-    return FileResponse("../index.html")
+    return FileResponse("index.html")
 
 
 # =========================================
