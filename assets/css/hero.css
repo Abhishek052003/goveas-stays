@@ -1,0 +1,187 @@
+.hero{
+    position:relative;
+
+    width:100%;
+
+    min-height:100vh;
+
+    padding:130px 0 90px;
+
+    overflow:hidden;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+}
+
+
+/* ========================================= */
+/* HERO VIDEO */
+/* ========================================= */
+
+.hero video{
+    position:absolute;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+}
+
+
+/* ========================================= */
+/* OVERLAY */
+/* ========================================= */
+
+.overlay{
+    position:absolute;
+
+    inset:0;
+
+    background:linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.45),
+        rgba(0,0,0,0.7)
+    );
+}
+
+
+/* ========================================= */
+/* HERO CONTENT */
+/* ========================================= */
+
+.hero-content{
+    position:relative;
+
+    z-index:2;
+
+    width:90%;
+
+    max-width:1150px;
+
+    text-align:center;
+
+    margin-top:50px;
+}
+
+
+/* ========================================= */
+/* TAGLINE */
+/* ========================================= */
+
+.tagline{
+    color:var(--primary-color);
+
+    font-size:0.95rem;
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+    margin-bottom:28px;
+
+    font-weight:500;
+}
+
+
+/* ========================================= */
+/* HERO TITLE */
+/* ========================================= */
+
+.hero-content h1{
+
+    font-size:clamp(3rem, 5vw, 5.4rem);
+
+    line-height:1.05;
+
+    font-weight:800;
+
+    margin-bottom:28px;
+
+    max-width:920px;
+
+    margin-inline:auto;
+}
+
+
+/* ========================================= */
+/* HERO DESCRIPTION */
+/* ========================================= */
+
+.hero-description{
+
+    max-width:760px;
+
+    margin:auto;
+
+    font-size:1.08rem;
+
+    line-height:1.95;
+
+    color:#e0e0e0;
+
+    margin-bottom:42px;
+}
+
+
+/* ========================================= */
+/* HERO BUTTONS */
+/* ========================================= */
+
+.hero-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+}
+
+
+/* ========================================= */
+/* BUTTONS */
+/* ========================================= */
+
+.primary-btn,
+.secondary-btn{
+
+    padding:18px 38px;
+
+    border-radius:60px;
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    transition:0.35s ease;
+}
+
+.primary-btn{
+
+    background:var(--primary-color);
+
+    color:black;
+}
+
+.secondary-btn{
+
+    background:transparent;
+
+    border:1px solid rgba(255,255,255,0.45);
+
+    color:white;
+}
+
+.primary-btn:hover,
+.secondary-btn:hover{
+
+    transform:translateY(-4px);
+}

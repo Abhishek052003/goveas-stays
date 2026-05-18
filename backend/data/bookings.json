@@ -1,0 +1,128 @@
+[
+    {
+        "full_name": "Abhishek",
+        "phone_number": "9004379897",
+        "living_city": "Mumbai",
+        "members": 4,
+        "checkin_date": "2026-05-17"
+    },
+    {
+        "full_name": "Sagar",
+        "phone_number": "1234567890",
+        "living_city": "Bhandup",
+        "members": -10,
+        "checkin_date": "2026-05-17"
+    },
+    {
+        "full_name": "Gauri",
+        "phone_number": "9421207466",
+        "living_city": "Nerul",
+        "members": 3,
+        "checkin_date": "2026-05-17"
+    },
+    {
+        "full_name": "Onkar",
+        "phone_number": "1234567890",
+        "living_city": "Thane",
+        "members": 3,
+        "checkin_date": "2026-05-17"
+    },
+    {
+        "full_name": "Binay",
+        "phone_number": "8765498765",
+        "living_city": "Odisha",
+        "members": 3,
+        "checkin_date": "2026-05-17"
+    },
+    {
+        "full_name": "vishal",
+        "phone_number": "0909090909",
+        "living_city": "csmt",
+        "members": 5,
+        "checkin_date": "2026-05-16"
+    },
+    {
+        "full_name": "sgara",
+        "phone_number": "3456757577",
+        "living_city": "Thane",
+        "members": 4,
+        "checkin_date": "2026-05-17"
+    },
+    {
+        "full_name": "abhi",
+        "phone_number": "3456467857",
+        "living_city": "bhndn",
+        "members": 4,
+        "checkin_date": "2026-05-08"
+    },
+    {
+        "full_name": "savali",
+        "phone_number": "7506557689",
+        "living_city": "vasai",
+        "members": 5,
+        "checkin_date": "2026-05-17"
+    },
+    {
+        "full_name": "manoj",
+        "phone_number": "3526739475",
+        "living_city": "bengal",
+        "members": 4,
+        "checkin_date": "2026-05-17"
+    },
+    {
+        "full_name": "abhi",
+        "phone_number": "45665e5677",
+        "living_city": "vaai",
+        "members": 4,
+        "checkin_date": "2026-05-15"
+    },
+    {
+        "full_name": "sagar",
+        "phone_number": "8765434678",
+        "living_city": "thane",
+        "members": 6,
+        "checkin_date": "2026-05-17"
+    },
+    {
+        "full_name": "gauri",
+        "phone_number": "3456789098",
+        "living_city": "nerul",
+        "members": 34,
+        "checkin_date": "2026-05-17"
+    },
+    {
+        "full_name": "sagar",
+        "phone_number": "2345677899",
+        "living_city": "abhi",
+        "members": 2,
+        "checkin_date": "2026-05-17"
+    },
+    {
+        "full_name": "abhi",
+        "phone_number": "2345678765",
+        "living_city": "bhandup",
+        "members": 5,
+        "checkin_date": "2026-05-17"
+    },
+    {
+        "full_name": "abhi",
+        "phone_number": "5436787534",
+        "living_city": "thane",
+        "members": 8,
+        "checkin_date": "2026-05-17"
+    },
+    {
+        "full_name": "gauri",
+        "phone_number": "9898765654",
+        "living_city": "nerul",
+        "members": 6,
+        "checkin_date": "2026-05-09"
+    },
+    {
+        "full_name": "Abhishek",
+        "phone_number": "7656546788",
+        "living_city": "bhandup",
+        "members": 8,
+        "checkin_date": "2026-05-17"
+    }
+]

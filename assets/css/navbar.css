@@ -1,0 +1,199 @@
+.navbar{
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+
+    height:88px;
+
+    padding:16px 5%;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:space-between;
+
+    z-index:1000;
+
+    background:rgba(0,0,0,0.18);
+
+    backdrop-filter:blur(14px);
+}
+
+
+/* ========================================= */
+/* LOGO */
+/* ========================================= */
+
+.logo{
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+    min-width:max-content;
+}
+
+.logo img{
+
+    width:145px;
+
+    height:auto;
+
+    object-fit:contain;
+
+    display:block;
+}
+
+.logo span{
+
+    display:none;
+}
+
+
+/* ========================================= */
+/* DESKTOP NAVIGATION */
+/* ========================================= */
+
+nav{
+    position:absolute;
+
+    left:50%;
+    transform:translateX(-50%);
+
+    display:flex;
+
+    align-items:center;
+
+    gap:55px;
+}
+
+nav a{
+    color:white;
+
+    font-size:0.95rem;
+
+    font-weight:500;
+
+    transition:0.3s ease;
+}
+
+nav a:hover{
+    color:var(--primary-color);
+}
+
+
+/* ========================================= */
+/* MOBILE MENU BUTTON */
+/* ========================================= */
+
+.menu-toggle{
+    display:none;
+
+    width:48px;
+    height:48px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,0.08);
+
+    color:white;
+
+    font-size:1.4rem;
+
+    align-items:center;
+    justify-content:center;
+
+    cursor:pointer;
+
+    z-index:1200;
+
+    transition:0.3s ease;
+}
+
+.menu-toggle:hover{
+    background:var(--primary-color);
+
+    color:black;
+}
+
+
+/* ========================================= */
+/* MOBILE RESPONSIVE */
+/* ========================================= */
+
+@media(max-width:768px){
+
+    .navbar{
+
+        padding:18px 5%;
+    }
+
+    .logo img{
+
+        width:46px;
+        height:46px;
+    }
+
+    .logo span{
+
+        font-size:1.05rem;
+    }
+
+
+    /* ========================= */
+    /* MOBILE NAV */
+    /* ========================= */
+
+    nav{
+        position:fixed;
+
+        top:0;
+        right:-100%;
+
+        width:280px;
+        height:100vh;
+
+        background:#0d1722;
+
+        display:flex;
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        justify-content:center;
+
+        padding:80px 40px;
+
+        gap:35px;
+
+        transition:0.4s ease;
+
+        z-index:1100;
+    }
+
+    nav.active{
+
+        right:0;
+    }
+
+    nav a{
+
+        font-size:1.1rem;
+    }
+
+
+    /* ========================= */
+    /* MENU BUTTON */
+    /* ========================= */
+
+    .menu-toggle{
+
+        display:flex;
+    }
+
+}

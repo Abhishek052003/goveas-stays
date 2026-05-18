@@ -1,0 +1,311 @@
+/* ========================================= */
+/* LARGE TABLET */
+/* ========================================= */
+
+@media(max-width:1100px){
+
+    .villa-card{
+
+        grid-template-columns:1fr;
+    }
+
+    .villa-image{
+
+        height:500px;
+    }
+
+    .villa-info{
+
+        padding:60px;
+    }
+
+}
+
+
+/* ========================================= */
+/* TABLET */
+/* ========================================= */
+
+@media(max-width:992px){
+
+    .hero-content h1{
+
+        font-size:4.5rem;
+    }
+
+    .amenities-grid{
+
+        grid-template-columns:1fr 1fr;
+    }
+
+}
+
+
+/* ========================================= */
+/* MOBILE */
+/* ========================================= */
+
+@media(max-width:768px){
+
+    /* ========================= */
+    /* GLOBAL */
+    /* ========================= */
+
+    section{
+
+        padding:70px 5%;
+    }
+
+
+    /* ========================= */
+    /* NAVBAR */
+    /* ========================= */
+
+    .navbar{
+
+        padding:18px 5%;
+    }
+
+    nav{
+
+        display:none;
+    }
+
+    .nav-btn{
+
+        padding:14px 24px;
+
+        font-size:0.9rem;
+    }
+
+    .logo span{
+
+        font-size:1.1rem;
+    }
+
+
+    /* ========================= */
+    /* HERO */
+    /* ========================= */
+
+    .hero{
+
+        min-height:100vh;
+
+        padding:120px 0 80px;
+    }
+
+    .hero-content{
+
+        width:92%;
+
+        margin-top:30px;
+    }
+
+    .tagline{
+
+        font-size:0.8rem;
+
+        letter-spacing:3px;
+
+        margin-bottom:18px;
+    }
+
+    .hero-content h1{
+
+        font-size:clamp(2.8rem, 11vw, 4.5rem);
+
+        line-height:1.08;
+
+        margin-bottom:24px;
+    }
+
+    .hero-description{
+
+        font-size:1rem;
+
+        line-height:1.9;
+
+        margin-bottom:35px;
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        width:100%;
+
+        gap:16px;
+    }
+
+    .primary-btn,
+    .secondary-btn{
+
+        width:100%;
+
+        max-width:320px;
+    }
+
+
+    /* ========================= */
+    /* SECTION HEADER */
+    /* ========================= */
+
+    .section-header h2{
+
+        font-size:2.3rem;
+
+        line-height:1.2;
+    }
+
+
+    /* ========================= */
+    /* VILLA CARD */
+    /* ========================= */
+
+    .villa-card{
+
+        grid-template-columns:1fr;
+
+        border-radius:28px;
+    }
+
+    .villa-image{
+
+        height:320px;
+    }
+
+    .villa-info{
+
+        padding:40px 28px;
+    }
+
+    .villa-info h3{
+
+        font-size:2rem;
+
+        line-height:1.2;
+    }
+
+    .villa-info p{
+
+        font-size:1rem;
+
+        line-height:1.9;
+    }
+
+    .villa-footer{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:20px;
+    }
+
+    .villa-footer button{
+
+        width:100%;
+    }
+
+
+    /* ========================= */
+    /* AMENITIES */
+    /* ========================= */
+
+    .amenities-grid{
+
+        grid-template-columns:1fr;
+    }
+
+    .amenity-card{
+
+        padding:38px 28px;
+    }
+
+    .amenity-card h3{
+
+        font-size:1.6rem;
+    }
+
+
+    /* ========================= */
+    /* POPUP */
+    /* ========================= */
+
+    .popup-box{
+
+        padding:40px 24px;
+
+        border-radius:24px;
+    }
+
+    .popup-box h2{
+
+        font-size:2.1rem;
+    }
+
+    .success-box{
+
+        padding:50px 25px;
+    }
+
+    .success-box h2{
+
+        font-size:1.9rem;
+    }
+
+
+    /* ========================= */
+    /* FOOTER */
+    /* ========================= */
+
+    .footer{
+
+        padding:70px 5%;
+    }
+
+    .footer h2{
+
+        font-size:2.4rem;
+    }
+
+}
+
+
+/* ========================================= */
+/* SMALL MOBILE */
+/* ========================================= */
+
+@media(max-width:480px){
+
+    .hero-content h1{
+
+        font-size:2.5rem;
+    }
+
+    .section-header h2{
+
+        font-size:2rem;
+    }
+
+    .villa-info h3{
+
+        font-size:1.8rem;
+    }
+
+    .villa-footer h4{
+
+        font-size:1.7rem;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .logo img{
+
+        width:120px;
+    }
+
+}

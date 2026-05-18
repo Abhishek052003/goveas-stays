@@ -1,0 +1,17 @@
+:root {
+
+    --primary-color: #d6b98c;
+    --dark-color: #0f1720;
+    --secondary-dark: #18212b;
+    --white-color: #ffffff;
+    --text-color: #cfcfcf;
+    --border-color: rgba(255,255,255,0.1);
+
+    --main-font: 'Outfit', sans-serif;
+
+    --section-padding: 100px 8%;
+
+    --transition: 0.4s ease;
+
+    --radius: 20px;
+}

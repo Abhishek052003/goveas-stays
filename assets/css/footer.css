@@ -1,0 +1,239 @@
+.footer{
+    position:relative;
+
+    padding:130px 8% 90px;
+
+    text-align:center;
+
+    overflow:hidden;
+
+    background:url('../images/hero/footer-bg.jpg');
+
+    background-size:cover;
+
+    background-position:center;
+}
+
+
+/* ======================================== */
+/* DARK OVERLAY */
+/* ======================================== */
+
+.footer::before{
+
+    content:'';
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,0.78);
+}
+
+
+/* ======================================== */
+/* CONTENT */
+/* ======================================== */
+
+.footer *{
+    position:relative;
+    z-index:2;
+}
+
+.footer-content{
+    max-width:1100px;
+    margin:auto;
+}
+
+
+/* ======================================== */
+/* TITLE */
+/* ======================================== */
+
+.footer h2{
+
+    font-size:clamp(2.8rem, 5vw, 4.5rem);
+
+    margin-bottom:28px;
+
+    font-weight:800;
+}
+
+
+/* ======================================== */
+/* DESCRIPTION */
+/* ======================================== */
+
+.footer p{
+
+    max-width:850px;
+
+    margin:auto;
+
+    color:#d8d8d8;
+
+    line-height:2;
+
+    font-size:1.08rem;
+}
+
+
+/* ======================================== */
+/* DETAILS */
+/* ======================================== */
+
+.footer-details{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:35px;
+
+    flex-wrap:wrap;
+
+    margin-top:45px;
+}
+
+.footer-detail{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    color:#e3e3e3;
+
+    font-size:1rem;
+}
+
+.footer-detail i{
+
+    color:var(--primary-color);
+
+    font-size:1.1rem;
+}
+
+
+/* ======================================== */
+/* ACTION BUTTONS */
+/* ======================================== */
+
+.footer-links{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:24px;
+
+    flex-wrap:wrap;
+
+    margin:55px 0;
+}
+
+
+/* ======================================== */
+/* WHATSAPP LINK */
+/* ======================================== */
+
+.footer-link{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:16px 28px;
+
+    border-radius:60px;
+
+    background:rgba(255,255,255,0.06);
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    color:white;
+
+    font-size:1rem;
+
+    transition:0.35s ease;
+}
+
+.footer-link:hover{
+
+    background:var(--primary-color);
+
+    color:black;
+
+    transform:translateY(-4px);
+}
+
+
+/* ======================================== */
+/* CONTACT BUTTON */
+/* ======================================== */
+
+.footer-contact-btn{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:16px 28px;
+
+    border:none;
+
+    border-radius:60px;
+
+    background:var(--primary-color);
+
+    color:black;
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.35s ease;
+}
+
+.footer-contact-btn:hover{
+
+    transform:translateY(-4px);
+}
+
+
+/* ======================================== */
+/* ICONS */
+/* ======================================== */
+
+.footer-link i,
+.footer-contact-btn i{
+
+    font-size:1.1rem;
+}
+
+
+/* ======================================== */
+/* COPYRIGHT */
+/* ======================================== */
+
+.copyright{
+
+    display:block;
+
+    margin-top:20px;
+
+    color:#b7b7b7;
+
+    font-size:0.95rem;
+}

@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:var(--main-font);
+    background:#08111b;
+    color:var(--white-color);
+    overflow-x:hidden;
+    line-height:1.6;
+}
+
+img,
+video{
+    width:100%;
+    display:block;
+}
+
+button{
+    cursor:pointer;
+    border:none;
+    outline:none;
+    font-family:var(--main-font);
+}
+
+a{
+    text-decoration:none;
+}
+
+section{
+    padding:90px 6%;
+}
+
+.container{
+    width:100%;
+    max-width:1400px;
+    margin:auto;
+}
