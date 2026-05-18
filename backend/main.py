@@ -56,7 +56,7 @@ app.add_middleware(
 
 SENDER_EMAIL = "dhokareabhi@gmail.com"
 
-APP_PASSWORD = "PUT_NEW_APP_PASSWORD_HERE"
+APP_PASSWORD = "fybv qtqx ookb koiy"
 
 RECEIVER_EMAIL = "dhokareabhi@gmail.com"
 
